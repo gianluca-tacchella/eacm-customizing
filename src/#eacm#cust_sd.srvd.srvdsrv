@@ -1,0 +1,14 @@
+@EndUserText.label: 'eACM Customizing Configuration'
+define service /EACM/CUST_SD {
+  expose /EACM/C_ZACMC44 as Zacmc44;
+  expose /EACM/C_ZBLOC as Zbloc;
+  expose /EACM/C_ZPR01 as Zpr01;
+  expose /EACM/C_ZPR02 as Zpr02;
+  expose /EACM/C_ZPR03 as Zpr03;
+  expose /EACM/C_ZPR04 as Zpr04;
+  expose /EACM/C_ZPR08 as Zpr08;
+  expose /EACM/C_ZPR10 as Zpr10;
+  expose /EACM/C_ZPR11 as Zpr11;
+  expose /EACM/C_ZPR48 as Zpr48;
+  expose /EACM/C_ZPR49 as Zpr49;
+}

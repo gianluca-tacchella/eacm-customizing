@@ -1,0 +1,445 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo: {
+  typeName: 'Commission Parameter',
+  typeNamePlural: 'Commission Parameters',
+  title: { type: #STANDARD, value: 'Bukrs' }
+}
+annotate entity /EACM/C_Zpr01 with
+{
+// @UI.facet: [{ id: 'General',       type: #IDENTIFICATION_REFERENCE, label: 'General',              position: 10 },
+//             { id: 'Dates',         type: #IDENTIFICATION_REFERENCE, label: 'Dates',                position: 20 },
+//             { id: 'CommConfig',    type: #IDENTIFICATION_REFERENCE, label: 'Commission Config',    position: 30 },
+//              { id: 'Scales',        type: #IDENTIFICATION_REFERENCE, label: 'Scales',               position: 40 },
+//              { id: 'Regulatory',    type: #IDENTIFICATION_REFERENCE, label: 'Regulatory',           position: 50 }]
+
+
+  @UI.facet: [ {
+    label: 'General Information',
+    id: 'GeneralInfo',
+    purpose: #STANDARD,
+    position: 10,
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+
+  @UI.identification: [ {
+    position: 10
+  } ]
+  @UI.lineItem: [ {
+    position: 10
+  } ]
+  @UI.selectionField: [ {
+    position: 10
+  } ]
+  @Consumption.valueHelpDefinition: [{
+    entity: { name: '/EACM/R_T001', element: 'Bukrs' }
+  }]
+  Bukrs;
+
+  @UI.identification: [ {
+    position: 20
+  } ]
+  @UI.lineItem: [ {
+    position: 20
+  } ]
+  Zpiva;
+
+  @UI.identification: [ {
+    position: 30
+  } ]
+  @UI.lineItem: [ {
+    position: 30
+  } ]
+  Zduep;
+
+  @UI.identification: [ {
+    position: 40
+  } ]
+  @UI.lineItem: [ {
+    position: 40
+  } ]
+  Zduee;
+
+  @UI.identification: [ {
+    position: 50
+  } ]
+  @UI.lineItem: [ {
+    position: 50
+  } ]
+  Zduea;
+
+  @UI.identification: [ {
+    position: 60
+  } ]
+  @UI.lineItem: [ {
+    position: 60
+  } ]
+  Zduan;
+
+  @UI.identification: [ {
+    position: 70
+  } ]
+  @UI.lineItem: [ {
+    position: 70
+  } ]
+  Zdufx;
+
+  @UI.identification: [ {
+    position: 80
+  } ]
+  @UI.lineItem: [ {
+    position: 80
+  } ]
+  Zggie;
+
+  @UI.identification: [ {
+    position: 90
+  } ]
+  @UI.lineItem: [ {
+    position: 90
+  } ]
+  Zminp;
+
+  @UI.identification: [ {
+    position: 100
+  } ]
+  @UI.lineItem: [ {
+    position: 100
+  } ]
+  Zmina;
+
+  @UI.identification: [ {
+    position: 110
+  } ]
+  @UI.lineItem: [ {
+    position: 110
+  } ]
+  Znelo;
+
+  @UI.identification: [ {
+    position: 120
+  } ]
+  @UI.lineItem: [ {
+    position: 120
+  } ]
+  Ztprv;
+
+  @UI.identification: [ {
+    position: 130
+  } ]
+  @UI.lineItem: [ {
+    position: 130
+  } ]
+  Zpcon;
+
+  @UI.identification: [ {
+    position: 140
+  } ]
+  @UI.lineItem: [ {
+    position: 140
+  } ]
+  Zacon;
+
+  @UI.identification: [ {
+    position: 150
+  } ]
+  @UI.lineItem: [ {
+    position: 150
+  } ]
+  Zfman;
+
+  @UI.identification: [ {
+    position: 160
+  } ]
+  @UI.lineItem: [ {
+    position: 160
+  } ]
+  Zsca1;
+
+  @UI.identification: [ {
+    position: 170
+  } ]
+  @UI.lineItem: [ {
+    position: 170
+  } ]
+  Zpan1;
+
+  @UI.identification: [ {
+    position: 180
+  } ]
+  @UI.lineItem: [ {
+    position: 180
+  } ]
+  Zsca2;
+
+  @UI.identification: [ {
+    position: 100
+  } ]
+  @UI.lineItem: [ {
+    position: 100
+  } ]
+  Zpan2;
+
+  @UI.identification: [ {
+    position: 200
+  } ]
+  @UI.lineItem: [ {
+    position: 200
+  } ]
+  Zsca3;
+
+  @UI.identification: [ {
+    position: 210
+  } ]
+  @UI.lineItem: [ {
+    position: 210
+  } ]
+  Zpan3;
+
+  @UI.identification: [ {
+    position: 220
+  } ]
+  @UI.lineItem: [ {
+    position: 220
+  } ]
+  Zsca4;
+
+  @UI.identification: [ {
+    position: 230
+  } ]
+  @UI.lineItem: [ {
+    position: 230
+  } ]
+  Zpan4;
+
+  @UI.identification: [ {
+    position: 240
+  } ]
+  @UI.lineItem: [ {
+    position: 240
+  } ]
+  Zpssc;
+
+  @UI.identification: [ {
+    position: 250
+  } ]
+  @UI.lineItem: [ {
+    position: 250
+  } ]
+  Zgssc;
+
+  @UI.identification: [ {
+    position: 260
+  } ]
+  @UI.lineItem: [ {
+    position: 260
+  } ]
+  Zeuro;
+
+  @UI.identification: [ {
+    position: 270
+  } ]
+  @UI.lineItem: [ {
+    position: 270
+  } ]
+  Zdett;
+
+  @UI.identification: [ {
+    position: 280
+  } ]
+  @UI.lineItem: [ {
+    position: 280
+  } ]
+  Zfofa;
+
+  @UI.identification: [ {
+    position: 290
+  } ]
+  @UI.lineItem: [ {
+    position: 290
+  } ]
+  @Consumption.valueHelpDefinition: [
+  {
+    entity: {
+      name: '/EACM/ZGFIRS_VH',
+      element: 'Value'
+     } } ]
+  @UI.textArrangement: #TEXT_FIRST
+  Zgfirr;
+
+  @UI.identification: [ {
+    position: 300
+  } ]
+  @UI.lineItem: [ {
+    position: 300
+  } ]
+  @Consumption.valueHelpDefinition: [
+  {
+    entity: {
+      name: '/EACM/ZGFIRS_VH',
+      element: 'Value'
+     } } ]
+  @UI.textArrangement: #TEXT_FIRST
+  Zgfisc;
+
+  @UI.identification: [ {
+    position: 305
+  } ]
+  @UI.lineItem: [ {
+    position: 305
+  } ]
+  @Consumption.valueHelpDefinition: [
+  {
+    entity: {
+      name: '/EACM/ZGFIRS_VH',
+      element: 'Value'
+     } } ]
+  @UI.textArrangement: #TEXT_FIRST
+  Zgena;
+  @UI.identification: [ {
+    position: 310
+  } ]
+  @UI.lineItem: [ {
+    position: 310
+  } ]
+  Zmese;
+
+  @UI.identification: [ {
+    position: 320
+  } ]
+  @UI.lineItem: [ {
+    position: 320
+  } ]
+  Ztpfx;
+
+  @UI.identification: [ {
+    position: 330
+  } ]
+  @UI.lineItem: [ {
+    position: 330
+  } ]
+  Zcditta;
+
+  @UI.identification: [ {
+    position: 340
+  } ]
+  @UI.lineItem: [ {
+    position: 340
+  } ]
+  Zccfena;
+
+  @UI.identification: [ {
+    position: 350
+  } ]
+  @UI.lineItem: [ {
+    position: 350
+  } ]
+  Zvtwegc;
+
+  @UI.identification: [ {
+    position: 360
+  } ]
+  @UI.lineItem: [ {
+    position: 360
+  } ]
+  Zfisct;
+
+  @UI.identification: [ {
+    position: 380
+  } ]
+  @UI.lineItem: [ {
+    position: 380
+  } ]
+  Zfisca;
+
+  @UI.identification: [ {
+    position: 390
+  } ]
+  @UI.lineItem: [ {
+    position: 390
+  } ]
+  Zfiscfa;
+
+  @UI.identification: [ {
+    position: 400
+  } ]
+  @UI.lineItem: [ {
+    position: 400
+  } ]
+  Zfacneg;
+
+  @UI.identification: [ {
+    position: 410
+  } ]
+  @UI.lineItem: [ {
+    position: 410
+  } ]
+  Zprotd;
+
+  @UI.identification: [ {
+    position: 420
+  } ]
+  @UI.lineItem: [ {
+    position: 420
+  } ]
+  Ztmddm;
+
+  @UI.identification: [ {
+    position: 430
+  } ]
+  @UI.lineItem: [ {
+    position: 430
+  } ]
+  Zritneg;
+
+  @UI.identification: [ {
+    position: 450
+  } ]
+  @UI.lineItem: [ {
+    position: 450
+  } ]
+  Zsplitiva;
+  
+    @UI.identification: [ {
+    position: 460
+  } ]
+  @UI.lineItem: [ {
+    position: 460
+  } ]
+  @Consumption.valueHelpDefinition: [
+  {
+    entity: {
+      name: '/EACM/ZFirrtpcal_VH',
+      element: 'Value'
+     } } ]
+  @UI.textArrangement: #TEXT_FIRST
+  Zfirrtpcal;
+  @UI.identification: [ {
+    position: 470
+  } ]
+  @UI.lineItem: [ {
+    position: 470
+  } ]      
+  @Consumption.valueHelpDefinition: [
+  {
+    entity: {
+      name: '/EACM/ZFisctpcal_VH',
+      element: 'Value'
+     } } ]
+  @UI.textArrangement: #TEXT_FIRST
+  Zfisctpcal;
+
+  @UI.hidden: true
+  CreatedBy;
+
+  @UI.hidden: true
+  CreatedAt;
+
+  @UI.hidden: true
+  ChangedBy;
+
+  @UI.hidden: true
+  ChangedAt;
+
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

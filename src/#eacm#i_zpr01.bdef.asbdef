@@ -1,0 +1,90 @@
+managed implementation in class /EACM/BP_I_Zpr01 unique;
+strict ( 2 );
+with draft;
+
+define behavior for /EACM/I_Zpr01 alias Zpr01
+persistent table /eacm/zpr01
+draft table /eacm/zpr01_d
+etag master LocalLastChangedAt
+lock master total etag ChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+    CreatedBy,
+    CreatedAt,
+    ChangedBy,
+    ChangedAt,
+    LocalLastChangedAt;
+
+  field ( readonly:update ) Bukrs;
+
+  mapping for /eacm/zpr01
+  {
+    Bukrs     = bukrs;
+    Zpiva    = zpiva;
+    Zduep    = zduep;
+    Zduee    = zduee;
+    Zduea    = zduea;
+    Zduan    = zduan;
+    Zdufx    = zdufx;
+    Zggie    = zggie;
+    Zminp    = zminp;
+    Zmina    = zmina;
+    Znelo    = znelo;
+    Ztprv    = ztprv;
+    Zpcon    = zpcon;
+    Zacon    = zacon;
+    Zfman    = zfman;
+    Zsca1    = zsca1;
+    Zpan1    = zpan1;
+    Zsca2    = zsca2;
+    Zpan2    = zpan2;
+    Zsca3    = zsca3;
+    Zpan3    = zpan3;
+    Zsca4    = zsca4;
+    Zpan4    = zpan4;
+    Zpssc    = zpssc;
+    Zgssc    = zgssc;
+    Zeuro     = zeuro;
+    Zdett     = zdett;
+    Zfofa     = zfofa;
+    Zgfirr    = zgfirr;
+    Zgfisc    = zgfisc;
+    Zgena    = zgena;
+    Zmese    = zmese;
+    Ztpfx    = ztpfx;
+    Zcditta  = zcditta;
+    Zccfena  = zccfena;
+    Zvtwegc   = zvtwegc;
+    Zfisct    = zfisct;
+    Zfisca    = zfisca;
+    Zfiscfa  = zfiscfa;
+    Zfacneg  = zfacneg;
+    Zprotd   = zprotd;
+    Ztmddm    = ztmddm;
+    Zritneg   = zritneg;
+    Zsplitiva = zsplitiva;
+    Zfirrtpcal =  zfirrtpcal;
+    Zfisctpcal =  zfisctpcal;
+      CreatedBy = created_by;
+    CreatedAt = created_at;
+    ChangedBy = changed_by;
+    ChangedAt = changed_at;
+    LocalLastChangedAt = local_last_changed_at;
+  }
+
+  create;
+  update;
+  delete;
+
+  validation ValidateCompanyCode on save { create; update; field Bukrs; }
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare
+  {
+    validation ValidateCompanyCode;
+  }
+}

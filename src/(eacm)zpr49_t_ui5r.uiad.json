@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Exoneration Enasarco by type and causal commission"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr49"
+  },
+  "navigation": {
+    "targetMappingId": "/EACM/ZPR49_T_UI5R_TM",
+    "semanticObject": "ZEACM_ZPR49",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "/EACM/ZPR49_T_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Enasarco exemption",
+        "subtitle": "ZPR49"
+      }
+    }
+  ]
+}

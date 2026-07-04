@@ -1,0 +1,39 @@
+managed implementation in class /EACM/BP_I_ZacmC44 unique;
+strict ( 2 );
+with draft;
+
+define behavior for /EACM/I_ZacmC44 alias ZacmC44
+persistent table /eacm/zacm_c44
+draft table /eacm/zacm_c44_d
+etag master LocalLastChangedAt
+lock master total etag ChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+    CreatedBy,
+    CreatedAt,
+    ChangedBy,
+    ChangedAt,
+    LocalLastChangedAt;
+
+  mapping for /eacm/zacm_c44
+  {
+    Zcdcau = zcdcau;
+    Zdscau = zdscau;
+      CreatedBy = created_by;
+    CreatedAt = created_at;
+    ChangedBy = changed_by;
+    ChangedAt = changed_at;
+    LocalLastChangedAt = local_last_changed_at;
+  }
+
+  create;
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+}

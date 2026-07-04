@@ -1,0 +1,58 @@
+managed implementation in class /EACM/BP_I_Zpr08 unique;
+strict ( 2 );
+with draft;
+
+define behavior for /EACM/I_Zpr08 alias Zpr08
+persistent table /eacm/zpr08
+draft table /eacm/zpr08_d
+etag master LocalLastChangedAt
+lock master total etag ChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+    CreatedBy,
+    CreatedAt,
+    ChangedBy,
+    ChangedAt,
+    LocalLastChangedAt;
+
+  mapping for /eacm/zpr08
+  {
+    Bukrs     = bukrs;
+    Zclpr    = zclpr;
+    Zdesc    = zdesc;
+    Zflag    = zflag;
+    Zcapr     = zcapr;
+    Zcaan     = zcaan;
+    Zming     = zming;
+    Zant      = zant;
+    Vbtyp     = vbtyp;
+    Numki     = numki;
+    Posnr     = posnr;
+    Arktx     = arktx;
+    Zprim     = zprim;
+    Zripr     = zripr;
+    Zenas     = zenas;
+    Zcspv     = zcspv;
+    Zesfirr   = zesfirr;
+    Zesfisc   = zesfisc;
+    Zesfiscm  = zesfiscm;
+    Zesminant = zesminant;
+    Zcongu    = zcongu;
+      CreatedBy = created_by;
+    CreatedAt = created_at;
+    ChangedBy = changed_by;
+    ChangedAt = changed_at;
+    LocalLastChangedAt = local_last_changed_at;
+  }
+
+  create;
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+}

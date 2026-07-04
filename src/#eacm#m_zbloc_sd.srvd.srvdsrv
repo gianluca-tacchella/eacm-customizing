@@ -1,0 +1,4 @@
+@EndUserText.label: 'Maint. C_ZBLOC'
+define service /EACM/M_ZBLOC_SD {
+  expose /EACM/C_ZBLOC as ZBLOC;
+}

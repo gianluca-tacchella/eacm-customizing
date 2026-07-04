@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/EACM/ZDUEE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATS</DOMNAME>
+    <HEADLEN>33</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>33</SCRLEN3>
+    <DDTEXT>Last date elaboration ENASARCO</DDTEXT>
+    <REPTEXT>Last date elaboration ENASARCO</REPTEXT>
+    <SCRTEXT_S>date ENAS.</SCRTEXT_S>
+    <SCRTEXT_M>last date ENAS.</SCRTEXT_M>
+    <SCRTEXT_L>Last date elaboration ENASARCO</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Data ultima elaborazione enasarco</DDTEXT>
+     <REPTEXT>Data ultima elaborazione enasarco</REPTEXT>
+     <SCRTEXT_S>Ult.el.ena</SCRTEXT_S>
+     <SCRTEXT_M>Ult.el.enasarco</SCRTEXT_M>
+     <SCRTEXT_L>Data ultima elaborazione enasarco</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

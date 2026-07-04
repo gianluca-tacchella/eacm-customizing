@@ -1,0 +1,90 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo: {
+  typeName: 'Commission Classification',
+  typeNamePlural: 'Commission Classifications',
+  title: { type: #STANDARD, value: 'Zclpr' },
+  description: { type: #STANDARD, value: 'Zdesc' }
+}
+annotate entity /EACM/C_Zpr08 with
+{
+  @UI.facet: [{ id: 'General', type: #IDENTIFICATION_REFERENCE, label: 'Commission Classification', position: 10 }]
+
+  @UI: { lineItem: [{ position: 10 }], identification: [{ position: 10 }], selectionField: [{ position: 10 }] }
+    @Consumption.valueHelpDefinition: [{
+    entity: {name: '/EACM/R_T001', element: 'Bukrs' }}]
+  
+  Bukrs;
+
+  @UI: { lineItem: [{ position: 20 }], identification: [{ position: 20 }], selectionField: [{ position: 20 }] }
+  Zclpr;
+
+  @UI: { lineItem: [{ position: 30 }], identification: [{ position: 30 }] }
+  Zdesc;
+
+  @UI: { lineItem: [{ position: 40 }], identification: [{ position: 40 }] }
+  Zflag;
+
+  @UI: { lineItem: [{ position: 50 }], identification: [{ position: 50 }] }
+  Zcapr;
+
+  @UI: { lineItem: [{ position: 60 }], identification: [{ position: 60 }] }
+  Zcaan;
+
+  @UI: { lineItem: [{ position: 70 }], identification: [{ position: 70 }] }
+  Zming;
+
+  @UI: { lineItem: [{ position: 80 }], identification: [{ position: 80 }] }
+  Zant;
+
+  @UI: { lineItem: [{ position: 90 }], identification: [{ position: 90 }] }
+  @Consumption.valueHelpDefinition: [{
+    entity: {name: '/EACM/R_VBTYP', element: 'Vbtyp'}}]
+  
+  Vbtyp;
+
+  @UI: { lineItem: [{ position: 100 }], identification: [{ position: 100 }] }
+  Numki;
+
+  @UI: { lineItem: [{ position: 110 }], identification: [{ position: 110 }] }
+  Posnr;
+
+  @UI: { lineItem: [{ position: 120 }], identification: [{ position: 120 }] }
+  Arktx;
+
+  @UI: { lineItem: [{ position: 130 }], identification: [{ position: 130 }] }
+  Zprim;
+
+  @UI: { lineItem: [{ position: 140 }], identification: [{ position: 140 }] }
+  Zripr;
+
+  @UI: { lineItem: [{ position: 150 }], identification: [{ position: 150 }] }
+  Zenas;
+
+  @UI: { lineItem: [{ position: 160 }], identification: [{ position: 160 }] }
+  Zcspv;
+
+  @UI: { lineItem: [{ position: 170 }], identification: [{ position: 170 }] }
+  Zesfirr;
+
+  @UI: { lineItem: [{ position: 180 }], identification: [{ position: 180 }] }
+  Zesfisc;
+
+  @UI: { lineItem: [{ position: 190 }], identification: [{ position: 190 }] }
+  Zesfiscm;
+
+  @UI: { lineItem: [{ position: 200 }], identification: [{ position: 200 }] }
+  Zesminant;
+
+  @UI: { lineItem: [{ position: 210 }], identification: [{ position: 210 }] }
+  Zcongu;
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  ChangedBy;
+  @UI.hidden: true
+  ChangedAt;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

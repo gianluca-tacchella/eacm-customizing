@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "it",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Parametri Provvigioni"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr01"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_16D92C63A89470709A1A72C97FB70708E7156091_TM",
+    "semanticObject": "ZEACM_ZZPR01",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_16D92C63A89470709A1A72C97FB70708E7156091_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Parametri Provvigioni",
+        "subtitle": "ZPR01"
+      }
+    }
+  ]
+}

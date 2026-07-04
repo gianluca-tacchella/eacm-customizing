@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Reason of the commission  movements"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zacmc44"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_44FD358E35BF96B43BCAEA30B11B832CA1AE5A8E_TM",
+    "semanticObject": "ZEACM_ZACMC44",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_44FD358E35BF96B43BCAEA30B11B832CA1AE5A8E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Reason of the commission  movements"
+      }
+    }
+  ]
+}

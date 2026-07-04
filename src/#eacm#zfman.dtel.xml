@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/EACM/ZFMAN</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR1</DOMNAME>
+    <HEADLEN>27</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Fac-simile generation man/aut</DDTEXT>
+    <REPTEXT>Generaz. fac-simile man/aut</REPTEXT>
+    <SCRTEXT_S>man/aut</SCRTEXT_S>
+    <SCRTEXT_M>man/aut</SCRTEXT_M>
+    <SCRTEXT_L>man/aut</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Generaz. fac-simile man/aut</DDTEXT>
+     <REPTEXT>Generaz. fac-simile man/aut</REPTEXT>
+     <SCRTEXT_S>man/aut</SCRTEXT_S>
+     <SCRTEXT_M>Gen. fac. man/aut</SCRTEXT_M>
+     <SCRTEXT_L>Generaz. fac-simile man/aut</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Maint. C_ZPR01'
+define service /EACM/M_ZPR01_SD {
+  expose /EACM/C_ZPR01 as ZPR01;
+}

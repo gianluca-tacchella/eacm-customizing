@@ -1,0 +1,28 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo: {
+  typeName: 'Document Sign',
+  typeNamePlural: 'Document Signs',
+  title: { type: #STANDARD, value: 'Vbtyp' },
+  description: { type: #STANDARD, value: 'Zsegn' }
+}
+annotate entity /EACM/C_Zpr48 with
+{
+  @UI.facet: [{ id: 'General', type: #IDENTIFICATION_REFERENCE, label: 'Commercial Document Sign', position: 10 }]
+
+  @UI: { lineItem: [{ position: 10 }], identification: [{ position: 10 }], selectionField: [{ position: 10 }] }
+  @Consumption.valueHelpDefinition: [{entity: {name: '/EACM/R_VBTYP', element: 'Vbtyp' }}]
+  Vbtyp;
+
+  @UI: { lineItem: [{ position: 20 }], identification: [{ position: 20 }] }
+  Zsegn;
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  ChangedBy;
+  @UI.hidden: true
+  ChangedAt;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

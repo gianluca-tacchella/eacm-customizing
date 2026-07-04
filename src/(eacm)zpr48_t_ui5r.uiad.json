@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Type commercial document"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr48"
+  },
+  "navigation": {
+    "targetMappingId": "/EACM/ZPR48_T_UI5R_TM",
+    "semanticObject": "ZEACM_ZPR48",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "/EACM/ZPR48_T_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Sign for type commercial doc.",
+        "subtitle": "ZPR48"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Table type client"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr04"
+  },
+  "navigation": {
+    "targetMappingId": "/EACM/ZPR04_T_UI5R_TM",
+    "semanticObject": "ZEACM_ZPR04",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "/EACM/ZPR04_T_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Mandate type",
+        "subtitle": "ZPR04"
+      }
+    }
+  ]
+}

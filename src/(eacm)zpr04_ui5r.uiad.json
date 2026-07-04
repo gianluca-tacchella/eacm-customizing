@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Table type client"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr04"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_EC9E39C05B654E42949187D0CE2C59315EB67AF2_TM",
+    "semanticObject": "ZEACM_ZPR04",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_EC9E39C05B654E42949187D0CE2C59315EB67AF2_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Table type client"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Maint. C_ZACMC44'
+define service /EACM/M_ZACMC44_SD {
+  expose /EACM/C_ZACMC44 as ZACMC44;
+}

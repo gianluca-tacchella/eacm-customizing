@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Types Doc. prev. for credit notes (/EACM/FRA)"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr10"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_08D5DA5FC14492D3899AB7BA66E6AB5C6009C636_TM",
+    "semanticObject": "ZEACM_ZPR10",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_08D5DA5FC14492D3899AB7BA66E6AB5C6009C636_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Types Doc. prev. for credit notes (/EACM/FRA)"
+      }
+    }
+  ]
+}

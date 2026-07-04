@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/EACM/ZZFISCT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BAPIFLAG</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>Managing whole quarters of turnover FISCM</DDTEXT>
+    <REPTEXT>Whole quarters FISCM</REPTEXT>
+    <SCRTEXT_S>Quar.FISCM</SCRTEXT_S>
+    <SCRTEXT_M>Quarters FISCM</SCRTEXT_M>
+    <SCRTEXT_L>Whole quarters FISCM</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Gestione trimestri interi per fatturato FISCM</DDTEXT>
+     <REPTEXT>Trimestri interi FISCM</REPTEXT>
+     <SCRTEXT_S>Trim.FISCM</SCRTEXT_S>
+     <SCRTEXT_M>Trim. interi FISCM</SCRTEXT_M>
+     <SCRTEXT_L>Trimestri interi FISCM</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

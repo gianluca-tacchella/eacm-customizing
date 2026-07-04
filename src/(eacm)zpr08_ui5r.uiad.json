@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Table type document commission"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr08"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_34909769CA1AC9DFE9899415970D19159DC57318_TM",
+    "semanticObject": "ZEACM_ZPR08",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_34909769CA1AC9DFE9899415970D19159DC57318_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Table type document commission"
+      }
+    }
+  ]
+}

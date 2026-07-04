@@ -1,0 +1,13 @@
+CLASS /eacm/bp_i_zpr01 DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF /eacm/i_zpr01.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS /EACM/BP_I_ZPR01 IMPLEMENTATION.
+ENDCLASS.

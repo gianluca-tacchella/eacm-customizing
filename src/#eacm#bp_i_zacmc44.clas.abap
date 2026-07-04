@@ -1,0 +1,13 @@
+CLASS /eacm/bp_i_zacmc44 DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF /eacm/i_zacmc44.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS /EACM/BP_I_ZACMC44 IMPLEMENTATION.
+ENDCLASS.

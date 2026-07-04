@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Table exclusion type document for agent"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zpr11"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_71C758B00A28830BEC67486C6D3F18DA74FC07E8_TM",
+    "semanticObject": "ZEACM_ZPR11",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_71C758B00A28830BEC67486C6D3F18DA74FC07E8_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Table exclusion type document for agent"
+      }
+    }
+  ]
+}

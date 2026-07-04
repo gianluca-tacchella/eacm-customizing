@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/EACM/ZDUFX</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATUM</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>34</SCRLEN3>
+    <DDTEXT>Last date print of fac-simile</DDTEXT>
+    <REPTEXT>last date print of fac-simile</REPTEXT>
+    <SCRTEXT_S>fac-simile</SCRTEXT_S>
+    <SCRTEXT_M>date fac-simile</SCRTEXT_M>
+    <SCRTEXT_L>last date print fac-sim.</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Data ultimo fac-simile provvigioni</DDTEXT>
+     <REPTEXT>Data ultimo fac-simile provvigioni</REPTEXT>
+     <SCRTEXT_S>dt fac.pro</SCRTEXT_S>
+     <SCRTEXT_M>dt ultimo fac. provv</SCRTEXT_M>
+     <SCRTEXT_L>Data ultimo fac-simile provvigioni</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

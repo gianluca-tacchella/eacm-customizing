@@ -1,0 +1,42 @@
+managed implementation in class /EACM/BP_I_Zpr11 unique;
+strict ( 2 );
+with draft;
+
+define behavior for /EACM/I_Zpr11 alias Zpr11
+persistent table /eacm/zpr11
+draft table /eacm/zpr11_d
+etag master LocalLastChangedAt
+lock master total etag ChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+    CreatedBy,
+    CreatedAt,
+    ChangedBy,
+    ChangedAt,
+    LocalLastChangedAt;
+
+  mapping for /eacm/zpr11
+  {
+    Vkorg  = vkorg;
+    Vtweg  = vtweg;
+    Spart  = spart;
+    Blart  = blart;
+    Zcdaz = zcdaz;
+      CreatedBy = created_by;
+    CreatedAt = created_at;
+    ChangedBy = changed_by;
+    ChangedAt = changed_at;
+    LocalLastChangedAt = local_last_changed_at;
+  }
+
+  create;
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+}
